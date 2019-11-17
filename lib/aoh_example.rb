@@ -14,7 +14,7 @@ def assembled_aoh
   assembled_array.push(JOELLE_VD)
   assembled_array.push(PAT_M)
   assembled_array.push(KATE_G)
-  assembled_array.push(DON_G)
+  assembled_array.push(BRUCE_G)
 end
 
 def literal_aoh
@@ -23,6 +23,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
